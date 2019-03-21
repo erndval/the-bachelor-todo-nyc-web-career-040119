@@ -59,7 +59,7 @@ def get_average_age_for_season(data, season)
       cour_data.each do |contestant|
         contestant.each do |key, value|
           if key == "age"
-            age_array >> value
+            age_array << value
           end
         end
       end
