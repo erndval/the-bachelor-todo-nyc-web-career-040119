@@ -65,4 +65,5 @@ def get_average_age_for_season(data, season)
       end
     end
   end
+  age_array.inject{ |sum, el| sum + el }.to_f / arr.size
 end
