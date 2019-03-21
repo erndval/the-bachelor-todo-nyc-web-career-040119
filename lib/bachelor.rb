@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
       cour_data.each do |contestant|
         contestant.each do |key, value|
           if key == "status" && value == "Winner"
-            return 
+            return contestant[:name]
           end
         end
       end
