@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
         contestant.each do |key, value|
           if key == "status" && value == "Winner"
             binding.pry
-            return contestant[:name].split(" ")[0]
+            return contestant["name"].split(" ")[0]
           end
         end
       end
