@@ -45,7 +45,7 @@ def get_occupation(data, hometown)
       cour_data.each do |contestant|
         contestant.each do |key, value|
         end
-    end
+      end
   end
 end
 
