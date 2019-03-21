@@ -32,6 +32,7 @@ def count_contestants_by_hometown(data, hometown)
       cour_data.each do |contestant|
         contestant.each do |key, value|
           if key = "hometown" && value = hometown
+            binding.pry
             counter += 1
           end
         end
