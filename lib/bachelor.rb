@@ -66,8 +66,8 @@ def get_average_age_for_season(data, season)
     end
   end
   age_array.each do |summers|
-    binding.pry
-    summers.to_f
     
+    summers.to_f
+    binding.pry
   end
 end
